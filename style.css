@@ -1,0 +1,92 @@
+body{
+    background-color: hsl(216, 12%, 8%);
+    font-family: 'Overpass';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box{
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 15px;
+    padding: 15px;
+    max-width:20%;
+    margin-top: 100px;
+}
+
+.question{
+    color: white;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.main{
+    color: hsl(217, 12%, 63%);
+}
+
+.rating{
+    color: hsl(217, 12%, 63%);
+    overflow: auto;
+}
+
+[class*="rate"]{
+    float: left;
+    background-color: hsl(216, 8%, 25%);
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    text-align: center;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+[class*="rate"]:hover{
+    transition: 0.5s;
+    background-color: grey;
+    color: white;
+}
+
+
+.submit{
+    color: white;
+    text-align: center;
+    background-color: hsl(25, 97%, 53%);
+    border-radius: 15px;
+}
+
+.submit:hover{
+    transition: 0.5s;
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+}
+
+.clicked{
+    color: white;
+    background-color: hsl(25, 97%, 53%) !important;
+}
+
+#final{
+    visibility:hidden;
+    text-align: center;
+}
+
+.finalrating{
+    color: hsl(25, 97%, 53%);
+    border-radius: 30px;
+    font-size: 17px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.ty{
+    color: white;
+    font-size: 30px;
+}
+
+.ocena{
+    display: inline-block;
+}
