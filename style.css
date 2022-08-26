@@ -11,8 +11,9 @@ body{
     background-color: hsl(213, 19%, 18%);
     border-radius: 15px;
     padding: 15px;
-    max-width:20%;
-    margin-top: 100px;
+    min-width: 200px;
+    max-width: 400px;
+    margin-top: 10%;
 }
 
 .question{
